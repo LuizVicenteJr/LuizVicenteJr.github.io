@@ -30,7 +30,7 @@ li {
 /* Estilos adicionais */
 .project-options {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr); /* Alterado para 2 colunas */
   grid-gap: 20px;
 }
 
