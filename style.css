@@ -60,11 +60,13 @@ footer {
 .contact-section {
   position: fixed;
   top: 50%;
-  right: 0;
+  right: 20px;
   transform: translateY(-50%);
   background-color: #f9f9f9;
   padding: 20px;
   border-radius: 5px;
+  z-index: 1;
+  max-width: 250px;
 }
 
 .contact-section h2 {
