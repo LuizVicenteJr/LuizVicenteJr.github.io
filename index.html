@@ -26,53 +26,11 @@
       color: #666;
     }
 
-    /* Estilos da seção de contato */
-    .contact-section {
-      position: fixed;
-      top: 50%;
-      right: 20px;
-      transform: translateY(-50%);
-      background-color: #f9f9f9;
-      padding: 20px;
-      border-radius: 5px;
-      width: 200px;
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
       text-align: center;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      transition: height 0.3s ease;
-      overflow: hidden;
-      height: 50px;
-    }
-
-    .contact-section.expanded {
-      height: auto;
-    }
-
-    .contact-section h2 {
-      margin-top: 0;
-      margin-bottom: 10px;
-      font-size: 18px;
-    }
-
-    .contact-section p {
-      margin-bottom: 5px;
-      font-size: 14px;
-    }
-
-    .contact-section a {
-      color: #333;
-    }
-
-    .contact-section a:hover {
-      color: #666;
-    }
-
-    .contact-toggle {
-      background-color: #f9f9f9;
-      border: none;
-      color: #333;
-      padding: 5px 10px;
-      margin-top: 10px;
-      cursor: pointer;
     }
   </style>
 </head>
@@ -99,33 +57,8 @@
     </div>
   </div>
 
-  <div class="contact-section">
-    <h2>Contato</h2>
-    <div class="contact-details">
-      <p>Email: <a href="mailto:luizvicentediasjr@yahoo.com">luizvicentediasjr@yahoo.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/luiz-vicente-dias-junior/">Luiz Vicente Dias Junior</a></p>
-    </div>
-    <button class="contact-toggle">Mostrar Contato</button>
-  </div>
-
   <footer>
     <p>&copy; 2023 Meu Site Pessoal. Todos os direitos reservados.</p>
   </footer>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var contactSection = document.querySelector('.contact-section');
-      var contactToggle = document.querySelector('.contact-toggle');
-
-      contactToggle.addEventListener('click', function() {
-        contactSection.classList.toggle('expanded');
-        if (contactSection.classList.contains('expanded')) {
-          contactToggle.textContent = 'Ocultar Contato';
-        } else {
-          contactToggle.textContent = 'Mostrar Contato';
-        }
-      });
-    });
-  </script>
 </body>
 </html>
