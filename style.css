@@ -14,8 +14,8 @@ p {
   margin-bottom: 10px;
 }
 
-h2 {
-  margin-top: 20px;
+h3 {
+  margin: 0;
 }
 
 ul {
@@ -55,53 +55,3 @@ footer {
   padding: 10px;
   text-align: center;
 }
-
-/* Estilos da seção de contato */
-.contact-section {
-  position: fixed;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 5px;
-  width: 200px;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: height 0.3s ease;
-  overflow: hidden;
-  height: 50px;
-}
-
-.contact-section.expanded {
-  height: auto;
-}
-
-.contact-section h2 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 18px;
-}
-
-.contact-section p {
-  margin-bottom: 5px;
-  font-size: 14px;
-}
-
-.contact-section a {
-  color: #333;
-}
-
-.contact-section a:hover {
-  color: #666;
-}
-
-.contact-toggle {
-  background-color: #f9f9f9;
-  border: none;
-  color: #333;
-  padding: 5px 10px;
-  margin-top: 10px;
-  cursor: pointer;
-}
-
